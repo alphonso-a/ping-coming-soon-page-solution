@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Ping coming soon page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700">
+  <script defer src="https://kit.fontawesome.com/ae2cab5fd1.js" crossorigin="anonymous"></script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="box">
+    <div class="logo">
+      <img src="images/logo.svg" alt="">
+    </div>
+    <div class="text">
+      <p class="para-1">We are launching <span>soon!</span></p>
+      <p class="para-2">Subscribe and get notified</p>
+    </div>
+    <div class="form">
+      <div id="e-mail">
+        <input type="email" class="e-mail toggle" placeholder="Your email address...">
+        <p class="error toggle">Please provide a valid email address</p>
+      </div>
+      <input type="submit" class="submit toggle" value="Notify Me" onclick="validate()">
+    </div>
+    <div class="dashboard toggle">
+      <img src="images/illustration-dashboard.png" alt="">
+    </div>
+    <div class="social-media">
+      <div class="container">
+        <i class="fa-brands fa-facebook-f"></i>
+      </div>
+      <div class="container">
+        <i class="fa-brands fa-twitter"></i>
+      </div>
+      <div class="container">
+        <i class="fa-brands fa-instagram"></i>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>&copy; Copyright Ping. All rights reserved.</p>
+    </div>
+  </div>
+</body>
+</html>
